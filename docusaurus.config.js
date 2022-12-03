@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Siderabot',
   tagline: 'Documentation',
-  url: 'https://sideralys.github.io/siderabot-docs',
+  url: 'https://sideralys.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
