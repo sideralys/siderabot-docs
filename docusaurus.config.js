@@ -9,7 +9,7 @@ const config = {
   title: 'Siderabot',
   tagline: 'Documentation',
   url: 'https://sideralys.github.io',
-  baseUrl: '/',
+  baseUrl: '/siderabot-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'https://res.cloudinary.com/ddaq2ywfp/image/upload/v1650446489/sideralys_xbfh9o.png',
