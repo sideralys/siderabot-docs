@@ -6,50 +6,30 @@ sidebar_position: 1
 
 Siderabot can help you manage tournaments with ease.
 
-## Step-by-step
+## Name it
 
-Release a version 1.0 of your project:
+You can create a tournament by going to the [tournaments page](https://siderabot.com/tournaments).
+Click the button, fill in the **name** of your tournament, the **game mode**
+and how your **teams** will be made up (you can change these settings later).
+Confirm.
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+You have a brand-new tournament to set up!
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+:::info
+Siderabot creates a Discord text channel and announces the tournament that was
+just created. When 
+:::
 
-Your docs now have 2 versions:
+## Setting up
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+You are redirected to a page to set up your tournament before starting it.
 
-## Add a Version Dropdown
+### Registration
 
-To navigate seamlessly across versions, add a version dropdown.
+You may set up a **registration end date**, as well as a **start date**.
+After the given registration end date, players will be not be able anymore to
+sign up for the tournament.
 
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+:::note
+The registration end date must obviously be prior to the tournament start date.
+:::

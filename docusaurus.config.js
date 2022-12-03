@@ -63,6 +63,11 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            href: 'https://siderabot.com',
+            position: 'left',
+            label: 'Dashboard'
           }
         ],
       },
