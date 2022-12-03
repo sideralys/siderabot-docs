@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Creating a tournament
 
-Docusaurus can manage multiple versions of your docs.
+Siderabot can help you manage tournaments with ease.
 
-## Create a docs version
+## Step-by-step
 
 Release a version 1.0 of your project:
 
